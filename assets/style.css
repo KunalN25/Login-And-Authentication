@@ -1,0 +1,61 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+.loginbox{
+    width: 320px;
+    height: 350px;
+    padding: 3%;
+    background: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.loginbox h1{
+    color: darkgreen;
+    
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+
+.regbox{
+    width: 350px;
+    height: 450px;
+    padding: 3%;
+    background: #fff;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius: 5%;
+}
+
+.regbox h1{
+    color: darkgreen;
+    
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+.regbox p{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
