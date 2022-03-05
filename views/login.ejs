@@ -8,22 +8,22 @@
     <link rel="stylesheet" href="/assets/style.css">
 </head> 
 <body>
-    <div class="loginbox">
-        <h1>LOGIN PAGE</h1>
-        <% include ("./partials/error_messages") %>
-       
 
-        <div >
-            <div class="form-group">
+    <div class="loginbox">
+        <h2>LOGIN PAGE</h2>
+    
+
+            <div class="form">
                 <form action="/login" method="POST">
-                    <input class="form-control  mb-3" type="email" name="email" id="username" placeholder="Email" required>
-                    <input class="form-control  mb-3" type="password" name="password" id="password" placeholder="Password" required>
-                    <input class="form-control btn btn-primary  mb-4" type="submit" id="submit" value="Login">
+                    <input class="" type="email" name="email" id="username" placeholder="Email" required>
+                    <input class="" type="password" name="password" id="password" placeholder="Password" required>
+                    <!-- <input class="form-control" type="text" placeholder="test" >  -->
+                    <button class="" type="submit" id="submit" >Login</button>
                 </form>
             </div>
             <p>Need an account? <a href="register"> Sign Up </a></p>
-        </div>
     </div>
+    
     
 
 

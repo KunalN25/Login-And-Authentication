@@ -1,36 +1,134 @@
 body{
-    background-color: cadetblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: url('https://wallpaperplay.com/walls/full/e/3/d/313781.jpg');
+    /* background-color: cadetblue; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-
+*{
+    box-sizing: border-box;
+    /* color: green; */
+}
+/* 
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+} */
 
 .loginbox{
-    width: 320px;
-    height: 350px;
-    padding: 3%;
-    background: #fff;
-    top: 40%;
-    left: 50%;
+    width: 21em;
+    height: 22.5em;
     position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
+    background: #fff;
+
+    top: -5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
+    
     border-radius: 5%;
+    display: flex;
+    justify-content: top;
+    align-items: center ;
+    flex-direction: column;
+}
+form {
+    text-align: center;
 }
 
-.loginbox h1{
+.loginbox h2{
     color: darkgreen;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
     
-    margin: 0;
-    padding: 0 0 20px;
-    text-align: center;
+}
+
+.loginbox input {
+
+    margin-top: .6rem;
+    padding: 0.6rem 0 0.6rem 1rem;
+    border-radius: 6px;
+    border: .4px solid rgb(131, 224, 128) ;
+    display: block;
+    width: 16rem;
+    background-color: rgb(171, 228, 201);
+    font-size: .96rem;
+}
+
+/* For placeholder colours */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(8, 80, 6);
+    opacity: 1; /* Firefox */
+    
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(8, 80, 6);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(8, 80, 6);
+  }
+
+.loginbox input:focus {
+    outline:none;
+    border: .2px solid rgb(40, 146, 67) ;
+    background-color: azure;
+    -webkit-box-shadow: 4px 4px  8px rgb(76, 201, 117) ;
+    box-shadow: 3px 3px   8px 2px rgb(76, 201, 117)  ;
+    /*          BOX-SHADOW PROPERTY
+        box-shadow: h-offset v-offset blur spread color; */
+    
+}
+.loginbox input:focus::placeholder{ 
+    color: rgb(157, 223, 156);
+    opacity: 1;
+  }
+
+.loginbox button {
+    margin-top: 1.5rem;
+    display: block;
+    font-size: 1.11rem ;
+    width: 100%;
+    padding: 8px 0 8px;
+    border:none;
+    border-radius: 9px;
+    background-color: rgb(60, 219, 126);
+    /* margin: auto; */
+    /* transform: translate(1,1); */
+    
+}
+
+.loginbox button:hover {
+    box-shadow: 1px 1px 8px 1px rgb(73, 202, 105);
 }
 
 .loginbox p{
-    margin: 0;
+    margin-top: 1.3em;
     padding: 0 0 20px;
     text-align: center;
 }
+
+.loginbox p a{
+    color: rgb(33, 150, 85);
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* REGISTER PAGE */
+
+
 
 
 .regbox{
